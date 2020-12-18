@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Stephen_Assets/Stephen_Scenes/Base_Scene.unity
+    path: Assets/Stephen_Assets/Stephen_Scenes/Tutorial_Scene.unity
     guid: 6860a5e3ce4c788449474c92824305c3
+  - enabled: 1
+    path: Assets/Stephen_Assets/Stephen_Scenes/Regular-Scene.unity
+    guid: 83b2e585b51494c829bc05c6048d17cf
   - enabled: 1
     path: Assets/Stephen_Assets/Stephen_Scenes/Test_Mission_Scene.unity
     guid: b32b15cb379a1459fa09ef5db8fd8f98

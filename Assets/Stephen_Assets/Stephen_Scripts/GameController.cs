@@ -38,6 +38,12 @@ public class GameController : MonoBehaviour
 
     }
 
+
+    public void OnTriggerExit(Collider other)
+    {
+        canvas.enabled = false;
+    }
+
     public static void EndDialogue()
     {
         Debug.Log("End of Conversation");

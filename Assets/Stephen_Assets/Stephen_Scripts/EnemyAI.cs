@@ -95,7 +95,17 @@ public class EnemyAI : MonoBehaviour
             else
             {
                 gameObject.GetComponent<Light>().color = Color.white;
-                meter = Mathf.Max(0, meter -= Time.deltaTime * meterSpeed + 1);
+                
+                if (meter > 0)
+                {
+                    Debug.Log("Meter Before" + meter);
+                    meter -= Time.deltaTime * meterSpeed;
+                    Debug.Log("Meter after" + meter);
+                }
+                    
+                
+                //meter = Mathf.Max(0, meter -= Time.deltaTime * meterSpeed + 1);
+                
             }
 
             if (los == true && state == EnemyAI.State.CHASE)
@@ -119,10 +129,10 @@ public class EnemyAI : MonoBehaviour
             state = EnemyAI.State.CHASE;
         
 
-        if (noLineOfSight && state != EnemyAI.State.CHASE && !inTrigger)
-        {
-            meter -= Time.deltaTime * meterSpeed;
-        }
+        //if (noLineOfSight && state != EnemyAI.State.CHASE && !inTrigger)
+        //{
+        //    meter -= Time.deltaTime * meterSpeed;
+        //}
 
        if(noLineOfSight && state == EnemyAI.State.INVESTIGATE)
         {
@@ -135,8 +145,9 @@ public class EnemyAI : MonoBehaviour
                 if(meter <= 0)
                 {
                     state = EnemyAI.State.PATROL;
+                    patrolCoolDown = 5;
                 }
-                patrolCoolDown = 5;
+                
             }
 
 

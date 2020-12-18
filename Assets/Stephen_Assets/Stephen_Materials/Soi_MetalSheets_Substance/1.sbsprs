@@ -1,0 +1,53 @@
+<sbspresets formatversion="1" count="1">
+ <sbspreset label="preset" pkgurl="pkg:///Soi_MetalGate">
+  <presetinput uid="4294967295" type="1" identifier="$pixelsize" value="1,1"/>
+  <presetinput uid="4294967295" type="8" identifier="$outputsize" value="11,11"/>
+  <presetinput uid="4294967295" type="4" identifier="$randomseed" value="0"/>
+  <presetinput uid="1308115064" type="4" identifier="Line_Count" value="32"/>
+  <presetinput uid="1309057655" type="0" identifier="Shape_Slope" value="1"/>
+  <presetinput uid="1309518134" type="4" identifier="Shape_TopBar" value="0"/>
+  <presetinput uid="1309555378" type="1" identifier="Shape_TopBar_Thickness" value="0.05,0.5"/>
+  <presetinput uid="1309561187" type="4" identifier="Shape_TopBar_Screws" value="1"/>
+  <presetinput uid="1309521019" type="4" identifier="Shape_SideBar" value="1"/>
+  <presetinput uid="1309558279" type="1" identifier="Shape_SideBar__Thickness" value="0.05,0.5"/>
+  <presetinput uid="1309561233" type="4" identifier="Shape_SideBar_Screws" value="1"/>
+  <presetinput uid="1309677767" type="4" identifier="Shape_Bars_Rusty" value="0"/>
+  <presetinput uid="1309635738" type="0" identifier="Shape_TopGap" value="0.25"/>
+  <presetinput uid="1309638629" type="0" identifier="Shape_SideGap" value="0.25"/>
+  <presetinput uid="1309072339" type="0" identifier="Bumps_Amount" value="0.5"/>
+  <presetinput uid="1309118160" type="0" identifier="Bumps_Dents" value="0.9"/>
+  <presetinput uid="1309162291" type="4" identifier="Bumps_Scale" value="8"/>
+  <presetinput uid="1309129726" type="0" identifier="Bumps_Depth" value="0.5"/>
+  <presetinput uid="1309144004" type="0" identifier="Bumps_Crumpledness" value="0.1"/>
+  <presetinput uid="1309514312" type="0" identifier="Bumps_Surface_Deformation" value="0.01"/>
+  <presetinput uid="1309158303" type="4" identifier="Scratch_Amount" value="128"/>
+  <presetinput uid="1309210964" type="0" identifier="Scratch_Thickness" value="0"/>
+  <presetinput uid="1309225220" type="0" identifier="Scratch_Depth" value="0.01"/>
+  <presetinput uid="1309239479" type="0" identifier="Surface_Noisiness" value="0.01"/>
+  <presetinput uid="1309300382" type="0" identifier="Surface_Rust_Noisiness" value="0.15"/>
+  <presetinput uid="1309320330" type="0" identifier="Surface_Rust_Spread" value="0.55"/>
+  <presetinput uid="1309325717" type="0" identifier="Surface_Rust_Depth" value="0.1"/>
+  <presetinput uid="1309723900" type="0" identifier="Surface_Rust_Drip" value="50"/>
+  <presetinput uid="1309712286" type="0" identifier="Dirt_Level" value="0.51"/>
+  <presetinput uid="1309717695" type="0" identifier="Dirt_Contrast" value="0.5"/>
+  <presetinput uid="1309730522" type="0" identifier="Surface_PaintRust" value="1"/>
+  <presetinput uid="1309641528" type="3" identifier="Color_Paint" value="0.324679,0.407843,0.247059,1"/>
+  <presetinput uid="1309644818" type="3" identifier="Color_TopBar" value="0.27451,0.329412,0.227451,1"/>
+  <presetinput uid="1309648131" type="3" identifier="Color_SideBar" value="0.275791,0.327586,0.226462,1"/>
+  <presetinput uid="1309780939" type="2" identifier="Color_Rust" value="0.486275,0.32549,0.266667"/>
+  <presetinput uid="1309651553" type="0" identifier="Color_Dust_Amount" value="0.5"/>
+  <presetinput uid="1309712226" type="2" identifier="Color_Metal" value="0.67451,0.360784,0.333333"/>
+  <presetinput uid="1309719055" type="3" identifier="Color_Dirt" value="0.149425,0.0967344,0.022089,1"/>
+  <presetinput uid="1309781142" type="0" identifier="Roughness_Base" value="0.25098"/>
+  <presetinput uid="1309784420" type="0" identifier="Rough_Noisiness" value="0.25"/>
+  <presetinput uid="1309787324" type="0" identifier="Rough_Variation" value="0.15"/>
+  <presetinput uid="1309790227" type="0" identifier="Rough_Dust" value="0.5"/>
+  <presetinput uid="1309793151" type="0" identifier="Rough_Rust" value="0.8"/>
+  <presetinput uid="1309796057" type="0" identifier="Rough_Scratches" value="0.4"/>
+  <presetinput uid="1309799474" type="0" identifier="Rough_Dirt" value="0.67451"/>
+  <presetinput uid="1308681006" type="4" identifier="TilingTexture" value="0"/>
+  <presetinput uid="1309802771" type="0" identifier="Sharpen_Roughness" value="0.2"/>
+  <presetinput uid="1309806575" type="0" identifier="Color_Sharpness" value="0.25"/>
+  <presetinput uid="1309810378" type="0" identifier="Normal_Intensity" value="4"/>
+ </sbspreset>
+</sbspresets>
