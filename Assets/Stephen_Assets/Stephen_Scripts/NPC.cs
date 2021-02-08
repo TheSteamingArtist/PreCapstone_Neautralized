@@ -16,9 +16,10 @@ public class NPC : MonoBehaviour
 
     public static Queue<string>[] sentences2;
 
-    public GameObject[] buttons;
+    public static GameObject[] buttons;
 
-    public GameObject[] conversationReset;
+    public static GameObject[] conversationReset;
+
 
     public void TriggerDialogue(Dialogue dialogue)
     {
