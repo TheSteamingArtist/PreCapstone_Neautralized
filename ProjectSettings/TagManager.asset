@@ -9,6 +9,20 @@ TagManager:
   - Target
   - Light
   - Text
+  - SecretaryConversationStarter
+  - OBradyConversationStarter
+  - JillConversationStarter
+  - Informant1C
+  - Informant2C
+  - Informant3C
+  - Informant4C
+  - Informant5C
+  - Informant6C
+  - Informant7C
+  - Informant8C
+  - Note1
+  - EndMessage
+  - StartGame
   layers:
   - Default
   - TransparentFX

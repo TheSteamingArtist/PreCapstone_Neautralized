@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GameController : MonoBehaviour
 {
-    Canvas canvas;
+    public  Canvas canvas;
 
-    
+    public  Rigidbody rb;
 
-    
+    public  GameObject player;
+
+    public NewDialogSystem newDialog;
+
+ 
+
+
 
     void Start()
     {
         
-
+        
         canvas = GameObject.FindGameObjectWithTag("ConversationStarter").GetComponent<Canvas>();
 
         canvas.enabled = false;
@@ -23,9 +30,9 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canvas)
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("I'm here");
+            EscapeDialog();
         }
     }
 
@@ -36,16 +43,30 @@ public class GameController : MonoBehaviour
         canvas.enabled = true;
 
 
-    }
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
+        player.GetComponent<FirstPersonController>().enabled = false;
+
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+
+    }
 
     public void OnTriggerExit(Collider other)
     {
-        canvas.enabled = false;
+        newDialog.num1 = 0;
+        newDialog.num2 = 1;
+        newDialog.num3 = 2;
+
+        newDialog.responseChanger = 0;
     }
 
-    public static void EndDialogue()
+    public void EscapeDialog()
     {
-        Debug.Log("End of Conversation");
+        canvas.enabled = false;
+
+        rb.constraints = RigidbodyConstraints.None;
+
+        player.GetComponent<FirstPersonController>().enabled = true;
     }
 }

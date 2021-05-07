@@ -7,6 +7,7 @@ public class FirstMainMission : MonoBehaviour
 {
     private Canvas canvas;
 
+
     private Text text;
 
     void Start()
@@ -25,6 +26,17 @@ public class FirstMainMission : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        //Sound plays
+
+
+        //UI changes to show they've collected info
+    }
+    
+       
+    
+
     void OnTriggerExit(Collider other)
     {
         RoughNumberManager.infoGather++;
@@ -36,6 +48,8 @@ public class FirstMainMission : MonoBehaviour
     {
 
         canvas = GameObject.FindGameObjectWithTag("CompleteMission").GetComponent<Canvas>();
+
+        canvas.enabled = true;
 
         text.text = "Agent please return back to HQ..You've gathered sufficient info";
 

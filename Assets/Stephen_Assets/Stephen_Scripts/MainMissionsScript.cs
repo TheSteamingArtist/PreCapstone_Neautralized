@@ -36,6 +36,8 @@ public class MainMissions : MonoBehaviour
 
         text.text = killUnderBosses + "/n" + FindLocation + "/n" + RescueNPCs;
 
+
+       
     }
 
 

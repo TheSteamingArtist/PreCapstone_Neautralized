@@ -11,12 +11,15 @@ public class MissionCheckerScript : MonoBehaviour
     }
     void Start()
     {
+
+
         //Use update on a switch function, which determines 
         MainMissions.killUnderBosses.objectiveCompleted = false;
         MainMissions.RescueNPCs.objectiveCompleted = false;
         MainMissions.FindLocation.objectiveCompleted = false;
         MainMissions.gatherInfo.objectiveCompleted = false;
     }
+
 
     // Update is called once per frame
     void Update()
